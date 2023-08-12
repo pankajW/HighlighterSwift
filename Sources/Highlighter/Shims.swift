@@ -16,7 +16,7 @@ import Foundation
     import AppKit
     public typealias HRColor = NSColor
     public typealias HRFont  = NSFont
-#elseif os(iOS)
+#else
     import UIKit
     public typealias HRColor = UIColor
     public typealias HRFont  = UIFont
